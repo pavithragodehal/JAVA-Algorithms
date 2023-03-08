@@ -1,4 +1,4 @@
-package app_2; //using "this" keyword we can access non static members of class.
+package app_2; 
 
 
 public class A {
