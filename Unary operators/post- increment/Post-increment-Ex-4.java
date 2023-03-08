@@ -1,4 +1,4 @@
-package app_2;// "this" keyword cannot use inside static methods
+package app_2;// 
 
 public class D {
 	
