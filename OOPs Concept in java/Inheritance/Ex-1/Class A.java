@@ -1,0 +1,5 @@
+package app_3;
+
+public class A {
+int x = 10;
+}
