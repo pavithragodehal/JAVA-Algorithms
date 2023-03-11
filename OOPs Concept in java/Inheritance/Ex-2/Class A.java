@@ -1,4 +1,4 @@
-package app_3;
+package app_3; //parent class(super class)
 
 public class A {
 int x = 10;
