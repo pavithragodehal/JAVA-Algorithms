@@ -1,4 +1,4 @@
-package app_3;
+package app_3;//child class
 //test1, test2
 
 public class B extends A {
