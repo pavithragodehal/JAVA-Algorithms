@@ -1,5 +1,5 @@
 package p3;
-
+//Packages resolves naming convention problems in java,that is we can create more than one class in the same project provided packages are different. 
 public class B {
 	public static void main(String[] args) {
 		//p1
