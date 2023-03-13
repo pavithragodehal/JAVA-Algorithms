@@ -7,5 +7,4 @@ public class B extends A {
         a1.test(); /*No error,bcz if we make variable/method default,then it can be accessed
         only in same class, same package but not in different packages.*/
 	}
-
 }
