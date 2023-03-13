@@ -1,11 +1,11 @@
-package p1;
-//same package, sub class
-public class B extends A {
+package p2;
+//different package, non-sub class
+import p1.A;
+public class B {
 	public static void main(String[] args) {
-		B a1 = new B();
+		A a1 = new A();
 		System.out.println(a1.x);
-        a1.test(); /*No error,bcz if we make variable/method default,then it can be accessed
-        only in same class, same package but not in different packages.*/
+                a1.test(); /*No error,bcz if we make variable/method default,then it can be accessed
+                             only in same class, same package but not in different packages.*/
 	}
-
 }
