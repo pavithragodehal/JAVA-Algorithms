@@ -9,6 +9,6 @@ protected void test() {
 public static void main(String[] args) {
 	A a1 = new A();
 	System.out.println(a1.x);
-    a1.test();
+    a1.test(); //if we make variable/method public, then it can be accessed everywhere.
 }
 }
