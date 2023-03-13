@@ -1,10 +1,10 @@
-package p1;
-//same package, sub class
-public class B extends A {
+package p2;
+//different package, non-sub class
+import p1.A;
+public class B  {
 	public static void main(String[] args) {
-		B b1 = new B();
-		System.out.println(b1.x);
-        b1.test(); /* if we make variable/method public, then it can be accessed everywhere.*/
+		A a1 = new B();
+		System.out.println(a1.x);
+                a1.test(); /* if we make variable/method public, then it can be accessed everywhere.*/
 	}
-
 }
