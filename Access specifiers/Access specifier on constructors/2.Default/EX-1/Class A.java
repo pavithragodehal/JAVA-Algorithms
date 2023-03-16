@@ -4,6 +4,6 @@ public class A {
     
   }
 public static void main(String[] args){
-   A a1 = new A(); //Error,if we make a constructor default, then it,s object can be created in same package but not outside package.
+   A a1 = new A();
 }
 }
