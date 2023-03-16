@@ -1,4 +1,4 @@
-package p2;
+package p2; //Multiple IIBs
 //Instance initialization block (IIB)
 
 public class A {
