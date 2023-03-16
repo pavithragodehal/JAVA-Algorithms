@@ -4,7 +4,6 @@ public class A{
     
   }
   public static void main (String[] args){
-    A a1 = new A();/* Error, if we make a constructor public, then it's object
-                     can be created in same package and in different package as well*/
+    A a1 = new A();
   }
 }
