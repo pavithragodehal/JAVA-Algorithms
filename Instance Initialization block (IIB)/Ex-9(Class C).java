@@ -11,6 +11,6 @@ public class C {
 		
 		public static void main(String[] args) {
 				B a1 = new B();
-			
+			//we can initialize both static and non static variables inside an IIB.
 		}
 	}
