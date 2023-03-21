@@ -7,6 +7,10 @@ public class B extends A{
 		public static void main(String[] args) {
 			B b1 = new B();
 			b1.test();
+			
+			A a1 = new A(); // we created object of the parent class, so it printed 100
+			a1.test();
+			
 		}
 
 	}
