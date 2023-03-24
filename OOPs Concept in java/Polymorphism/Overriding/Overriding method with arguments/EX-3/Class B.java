@@ -1,12 +1,24 @@
 package p1;
 //polymorphism
-public class B extends A{
-	public void test() { //here test method is taking more than one form
-			System.out.println(500); //overriding 500 with 100 in class A
+public class platinumAccount extends GoldAccount{
+	@Override
+	public void chqBooks() { 
+	System.out.println("Unlimited"); 
+	}
+	@Override
+	public void rateOfInterest() { 
+	System.out.println("6% PA"); 
 	}
 		public static void main(String[] args) {
-			B b1 = new B();
-			b1.test();
+			GoldAccount g =new GoldAccount();
+			g.onlineBanking();
+			g.rateOfInterest();
+			g.chqBooks();
+			
+			platinumAccount g =new platinumAccount();
+			p.onlineBanking();
+			p.rateOfInterest();
+			p.chqBooks();
 		}
 
 	}
