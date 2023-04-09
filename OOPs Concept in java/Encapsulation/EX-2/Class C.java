@@ -1,23 +1,16 @@
 package p1;
-//static initialization block (SIB)
+//Encapsulation
+//Automatically create setters & Getters
 
 public class C {
-	//IIB,SIB, and constructor Flow 
-	static { //SIB-1
-		System.out.println("From SIB-1");
+	private String name; //select name & ctrl+1
+	private String getName() {
+		return name;
 	}
-	static { //SIB-2
-		System.out.println("From SIB-2");
-		new C();
-	}
-		{ // IIB
-			System.out.println("From IIB");
-		}
-			
-			public static void main(String[] args) {
-				new C();
-				// Multiple object created, in SIB and Main.
-			}
+	public void setName(String name){
+		this.name = name;
+		
+}
 		}
 
 
