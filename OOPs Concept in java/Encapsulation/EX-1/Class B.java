@@ -1,12 +1,11 @@
 package p1;
-//polymorphism
-public class B extends A{
-	public void test() { //here test method is taking more than one form
-			System.out.println(500); //overriding 500 with 100 in class A
-	}
+//Encapsulation
+public class B { // non sub class
 		public static void main(String[] args) {
-			B b1 = new B();
-			b1.test();
+			A a1 = new A();
+			a1.setId(100); //here we saved id=Value.
+			int id = a1.getId(); //pressed ctrl+1
+			System.out.println(id);
 		}
 
 	}
