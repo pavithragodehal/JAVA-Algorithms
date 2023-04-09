@@ -4,7 +4,8 @@ package p1;
 
 public class C {
 	private String name; //select name & ctrl+1
-	private String getName() {
+	
+	public String getName() {
 		return name;
 	}
 	public void setName(String name){
